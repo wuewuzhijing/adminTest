@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/aceBack
+/.tmp
+/.sass-cache
+npm-debug.log
+.idea
+*.zip
+*.DS_Store
+*.atloc
