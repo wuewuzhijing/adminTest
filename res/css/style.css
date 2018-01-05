@@ -1,0 +1,82 @@
+
+/*公共样式--开始*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{box-sizing: border-box;}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+}
+
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow:hidden;
+}
+
+.nav_bar{
+    background: #00aaff;
+    height: 50px;
+}
+
+.main_container{
+    width: auto;
+    height: 100%;
+}
+
+.sldebar{
+    float: left;
+    background: #fff;
+    width: 200px;
+    height: 100%;
+}
+
+.mian_content{
+    margin-left: 100px;
+    height: 100px;
+    height: 100%;
+    background: #999;
+}
