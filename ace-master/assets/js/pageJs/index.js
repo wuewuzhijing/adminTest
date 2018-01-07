@@ -24,7 +24,7 @@ jQuery(function($) {
 
 
 
-    var placeholder = $('#piechart-placeholder').css({'width':'90%' , 'min-height':'150px'});
+   /* var placeholder = $('#piechart-placeholder').css({'width':'90%' , 'min-height':'150px'});
     var data = [
         { label: "social networks",  data: 38.7, color: "#68BC31"},
         { label: "search engines",  data: 24.5, color: "#2091CF"},
@@ -61,14 +61,14 @@ jQuery(function($) {
             }
         })
     }
-    drawPieChart(placeholder, data);
+    drawPieChart(placeholder, data);*/
 
     /**
      we saved the drawing function and the data to redraw with different position later when switching to RTL mode dynamically
      so that's not needed actually.
      */
-    placeholder.data('chart', data);
-    placeholder.data('draw', drawPieChart);
+   /* placeholder.data('chart', data);
+    placeholder.data('draw', drawPieChart);*/
 
 
 
@@ -111,7 +111,7 @@ jQuery(function($) {
     }
 
 
-    var sales_charts = $('#sales-charts').css({'width':'100%' , 'height':'220px'});
+   /* var sales_charts = $('#sales-charts').css({'width':'100%' , 'height':'220px'});
     $.plot("#sales-charts", [
         { label: "Domains", data: d1 },
         { label: "Hosting", data: d2 },
@@ -138,7 +138,7 @@ jQuery(function($) {
             borderColor:'#555'
         }
     });
-
+*/
 
     $('#recent-box [data-rel="tooltip"]').tooltip({placement: tooltip_placement});
     function tooltip_placement(context, source) {
